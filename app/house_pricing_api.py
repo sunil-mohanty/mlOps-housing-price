@@ -34,7 +34,7 @@ if __name__ == '__main__':
         port = int(sys.argv[1])
 
     except:
-        port = 8080
+        port = 8088
 
     housing_model = joblib.load('housing_model.pkl')
     housing_model_columns = joblib.load('housing_model_columns.pkl')
