@@ -1,7 +1,7 @@
 FROM python:3.6
 
 WORKDIR /app/
-
+RUN ls
 COPY deploymnts/requirements.txt /app/
 RUN pip install -r ./requirements.txt
 
