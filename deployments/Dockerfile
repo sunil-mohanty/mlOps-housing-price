@@ -7,7 +7,9 @@ RUN ls -lrt
 #COPY /deploymnts/requirements.txt /app/
 RUN pip install -r ./requirements.txt
 
+RUN python ./house_price.py
 #COPY app/house_price.py app/pricing_api.py app/housing_model.pkl app/housing_model_columns.pkl /app/
+RUN ls -lrt
 
 # ENTRYPOINT /bin/bash
 EXPOSE 7676
