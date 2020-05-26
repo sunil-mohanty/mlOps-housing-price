@@ -14,5 +14,5 @@ EXPOSE 7676
 
 #ENV ENVIRONMENT local
 
-ENTRYPOINT python ./pricing_api.py
+ENTRYPOINT python ./house_pricing_api.py
 #python ./pricing_api.py
